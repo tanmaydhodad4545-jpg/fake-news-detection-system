@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fake News Detection</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>Fake News Detection System</h1>
+
+    <form action="/predict" method="POST">
+
+        <textarea 
+            name="news"
+            placeholder="Enter news article here..."
+            required></textarea>
+
+        <button type="submit">
+            Check News
+        </button>
+
+    </form>
+
+    <a href="/history">
+        View Prediction History
+    </a>
+
+</div>
+
+<script src="/static/js/script.js"></script>
+
+</body>
+</html>
